@@ -1,0 +1,24 @@
+{
+  "name": "BEM 100 v2.0 — Indian Stock Momentum Intelligence",
+  "short_name": "BEM 100",
+  "description": "Production-grade Indian equity momentum and breakout screening platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080c14",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

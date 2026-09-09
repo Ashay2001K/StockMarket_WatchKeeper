@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)" stroke="#1e2d48" stroke-width="12"/>
+  <!-- Glowing momentum chart line -->
+  <path d="M 96 380 L 190 310 L 270 340 L 370 210 L 425 150" fill="none" stroke="url(#glow)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Breakout arrow -->
+  <polygon points="425,120 445,175 395,155" fill="#10b981" />
+  <!-- Text BEM -->
+  <text x="256" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="76" font-weight="900" fill="#f8fafc" text-anchor="middle" letter-spacing="4">BEM 100</text>
+</svg>
