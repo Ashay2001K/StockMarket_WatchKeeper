@@ -23,8 +23,11 @@ class SupabaseClient:
         supabase_url: Optional[str] = None,
         supabase_key: Optional[str] = None
     ):
-        self.url = (supabase_url or os.getenv("SUPABASE_URL", "")).rstrip("/")
-        self.key = supabase_key or os.getenv("SUPABASE_KEY", os.getenv("SUPABASE_SERVICE_ROLE_KEY", ""))
+        raw_url = (supabase_url or os.getenv("SUPABASE_URL", "")).strip().rstrip("/")
+        if raw_url.endswith("/rest/v1"):
+            raw_url = raw_url[:-8].rstrip("/")
+        self.url = raw_url
+        self.key = (supabase_key or os.getenv("SUPABASE_KEY", os.getenv("SUPABASE_SERVICE_ROLE_KEY", ""))).strip()
         self.headers = {
             "apikey": self.key,
             "Authorization": f"Bearer {self.key}",
