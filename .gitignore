@@ -50,3 +50,10 @@ yarn-error.log*
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Databases & local caches
+*.db
+*.sqlite
+*.sqlite3
+*.tsbuildinfo
+

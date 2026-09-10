@@ -141,68 +141,8 @@ export default function Home() {
 
           {activeTab === "watchlist" && (
             <WatchlistDelta
-              watchlist={
-                watchlist.length > 0
-                  ? watchlist
-                  : [
-                      {
-                        symbol: "MCX",
-                        close_price: 3840,
-                        day_change_pct: 3.5,
-                        current_bem: 93,
-                        history_3d: [82, 88, 93],
-                        delta_1d: 5.0,
-                        acceleration_tag: "Accelerating",
-                        status_flag: "Healthy Acceleration",
-                        action: "Strong Buy",
-                        chase_alert_active: false,
-                        potential_level: "High",
-                        potential_probability_pct: 82
-                      },
-                      {
-                        symbol: "POLYCAB",
-                        close_price: 6420,
-                        day_change_pct: 2.1,
-                        current_bem: 88,
-                        history_3d: [81, 85, 88],
-                        delta_1d: 3.0,
-                        acceleration_tag: "Accelerating",
-                        status_flag: "Healthy Acceleration",
-                        action: "Strong Buy",
-                        chase_alert_active: false,
-                        potential_level: "High",
-                        potential_probability_pct: 78
-                      },
-                      {
-                        symbol: "TRENT",
-                        close_price: 6920,
-                        day_change_pct: 4.8,
-                        current_bem: 62,
-                        history_3d: [78, 74, 62],
-                        delta_1d: -12.0,
-                        acceleration_tag: "Decelerating",
-                        status_flag: "Exhaustion Divergence",
-                        action: "Don't Chase",
-                        chase_alert_active: true,
-                        potential_level: "Low",
-                        potential_probability_pct: 32
-                      },
-                      {
-                        symbol: "TDPOWERSYS",
-                        close_price: 395,
-                        day_change_pct: -0.4,
-                        current_bem: 74,
-                        history_3d: [68, 72, 74],
-                        delta_1d: 2.0,
-                        acceleration_tag: "Stable",
-                        status_flag: "Healthy Reset",
-                        action: "Buy on Dip",
-                        chase_alert_active: false,
-                        potential_level: "Medium",
-                        potential_probability_pct: 65
-                      }
-                    ]
-              }
+              watchlist={watchlist}
+              onWatchlistChange={setWatchlist}
             />
           )}
 

@@ -113,12 +113,52 @@ export async function fetchStock(ticker: string): Promise<StockRecord> {
   return json.data;
 }
 
+export interface WatchlistApiResponse {
+  count: number;
+  symbols: string[];
+  watchlist: WatchlistItem[];
+}
+
 export async function fetchWatchlist(): Promise<WatchlistItem[]> {
   const url = `${API_BASE}/api/v1/watchlist`;
   const res = await fetch(url, { cache: "no-store" });
   if (!res.ok) throw new Error("Failed to load watchlist");
   const json = await res.json();
-  return json.watchlist;
+  return json.watchlist || [];
+}
+
+export async function addToWatchlist(symbol: string, notes: string = ""): Promise<{ item: WatchlistItem; symbol: string }> {
+  const url = `${API_BASE}/api/v1/watchlist`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ symbol, notes })
+  });
+  const data = await res.json();
+  if (!res.ok) {
+    throw new Error(data.detail || `Failed to add ${symbol} to watchlist`);
+  }
+  return data;
+}
+
+export async function removeFromWatchlist(symbol: string): Promise<{ symbol: string }> {
+  const url = `${API_BASE}/api/v1/watchlist/${encodeURIComponent(symbol)}`;
+  const res = await fetch(url, { method: "DELETE" });
+  const data = await res.json();
+  if (!res.ok) {
+    throw new Error(data.detail || `Failed to remove ${symbol} from watchlist`);
+  }
+  return data;
+}
+
+export async function resetWatchlist(): Promise<WatchlistItem[]> {
+  const url = `${API_BASE}/api/v1/watchlist/reset`;
+  const res = await fetch(url, { method: "POST" });
+  const data = await res.json();
+  if (!res.ok) {
+    throw new Error(data.detail || "Failed to reset watchlist");
+  }
+  return data.watchlist || [];
 }
 
 export async function fetchMarketRegime(): Promise<MarketRegimeData> {

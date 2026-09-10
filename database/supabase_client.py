@@ -115,3 +115,67 @@ class SupabaseClient:
         except Exception as e:
             logger.error(f"Error fetching stock score for {clean_sym}: {e}")
         return None
+
+    def get_user_watchlist(self, user_id: str = "default_user") -> List[str]:
+        """Queries the list of watchlisted symbols for a specific user."""
+        if not self.is_configured:
+            return []
+
+        endpoint = f"{self.url}/rest/v1/watchlists?user_id=eq.{user_id}&select=symbol&order=created_at.asc"
+        try:
+            res = requests.get(endpoint, headers=self.headers, timeout=10)
+            if res.status_code == 200:
+                return [r["symbol"] for r in res.json() if "symbol" in r]
+        except Exception as e:
+            logger.error(f"Error fetching watchlist for user {user_id}: {e}")
+        return []
+
+    def add_watchlist_symbol(self, symbol: str, user_id: str = "default_user", notes: str = "") -> bool:
+        """Adds a symbol to the user's watchlist in Supabase."""
+        if not self.is_configured:
+            return False
+
+        clean_sym = symbol.strip().upper().replace(".NS", "").replace(".BO", "")
+        endpoint = f"{self.url}/rest/v1/watchlists"
+        payload = {
+            "user_id": user_id,
+            "symbol": clean_sym,
+            "notes": notes
+        }
+        try:
+            res = requests.post(endpoint, headers=self.headers, json=payload, timeout=10)
+            return res.status_code in [200, 201]
+        except Exception as e:
+            logger.error(f"Error adding {clean_sym} to Supabase watchlist: {e}")
+            return False
+
+    def remove_watchlist_symbol(self, symbol: str, user_id: str = "default_user") -> bool:
+        """Removes a symbol from the user's watchlist in Supabase."""
+        if not self.is_configured:
+            return False
+
+        clean_sym = symbol.strip().upper().replace(".NS", "").replace(".BO", "")
+        endpoint = f"{self.url}/rest/v1/watchlists?user_id=eq.{user_id}&symbol=eq.{clean_sym}"
+        try:
+            res = requests.delete(endpoint, headers=self.headers, timeout=10)
+            return res.status_code in [200, 204]
+        except Exception as e:
+            logger.error(f"Error removing {clean_sym} from Supabase watchlist: {e}")
+            return False
+
+    def reset_user_watchlist(self, symbols: List[str], user_id: str = "default_user") -> bool:
+        """Resets user watchlist to given default symbols."""
+        if not self.is_configured:
+            return False
+
+        # Clear existing
+        endpoint = f"{self.url}/rest/v1/watchlists?user_id=eq.{user_id}"
+        try:
+            requests.delete(endpoint, headers=self.headers, timeout=10)
+            payload = [{"user_id": user_id, "symbol": s.strip().upper().replace(".NS", "").replace(".BO", "")} for s in symbols]
+            res = requests.post(f"{self.url}/rest/v1/watchlists", headers=self.headers, json=payload, timeout=10)
+            return res.status_code in [200, 201]
+        except Exception as e:
+            logger.error(f"Error resetting Supabase watchlist: {e}")
+            return False
+

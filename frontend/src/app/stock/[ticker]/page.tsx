@@ -3,13 +3,13 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
-import { fetchStock, StockRecord } from "@/lib/api";
+import { fetchStock, fetchWatchlist, addToWatchlist, removeFromWatchlist, StockRecord } from "@/lib/api";
 import { ScorecardHero } from "@/components/ScorecardHero";
 import { ChaseAlertBanner } from "@/components/ChaseAlertBanner";
 import { ActionSetupCard } from "@/components/ActionSetupCard";
 import { ComponentBreakdown } from "@/components/ComponentBreakdown";
 import { SkeletonLoader } from "@/components/SkeletonLoader";
-import { ArrowLeft, Share2, RefreshCw, Layers, ShieldCheck, HelpCircle } from "lucide-react";
+import { ArrowLeft, Share2, RefreshCw, Layers, ShieldCheck, HelpCircle, Bookmark, Loader2 } from "lucide-react";
 
 // Bundled fallback seed
 import initialSeed from "@/data/precomputed_screener.json";
@@ -22,6 +22,36 @@ export default function StockDetailPage() {
   const [stock, setStock] = useState<StockRecord | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isWatchlisted, setIsWatchlisted] = useState(false);
+  const [isTogglingWatchlist, setIsTogglingWatchlist] = useState(false);
+
+  useEffect(() => {
+    if (!ticker) return;
+
+    fetchWatchlist()
+      .then((list) => {
+        setIsWatchlisted(list.some((it) => it.symbol.toUpperCase() === ticker));
+      })
+      .catch(() => {});
+  }, [ticker]);
+
+  const handleToggleWatchlist = async () => {
+    if (!stock || isTogglingWatchlist) return;
+    setIsTogglingWatchlist(true);
+    try {
+      if (isWatchlisted) {
+        await removeFromWatchlist(stock.symbol);
+        setIsWatchlisted(false);
+      } else {
+        await addToWatchlist(stock.symbol);
+        setIsWatchlisted(true);
+      }
+    } catch (err: any) {
+      console.error("Watchlist toggle error:", err);
+    } finally {
+      setIsTogglingWatchlist(false);
+    }
+  };
 
   useEffect(() => {
     if (!ticker) return;
@@ -91,6 +121,25 @@ export default function StockDetailPage() {
         </button>
 
         <div className="flex items-center gap-2">
+          <button
+            onClick={handleToggleWatchlist}
+            disabled={isTogglingWatchlist}
+            className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all active:scale-95 ${
+              isWatchlisted
+                ? "bg-emerald-500/20 border-emerald-500/40 text-emerald-300"
+                : "bg-slate-900 border-slate-800 text-slate-300 hover:text-white"
+            }`}
+          >
+            {isTogglingWatchlist ? (
+              <Loader2 className="w-3.5 h-3.5 animate-spin text-emerald-400" />
+            ) : isWatchlisted ? (
+              <Bookmark className="w-3.5 h-3.5 fill-current text-emerald-400" />
+            ) : (
+              <Bookmark className="w-3.5 h-3.5" />
+            )}
+            <span>{isWatchlisted ? "In Watchlist" : "Add to Watchlist"}</span>
+          </button>
+
           <span className="text-[11px] font-mono px-2 py-0.5 rounded-full bg-slate-800/80 text-slate-400 border border-slate-700">
             {stock.confidence} Confidence
           </span>
