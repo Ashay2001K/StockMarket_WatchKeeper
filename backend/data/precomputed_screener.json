@@ -1,7 +1,7 @@
 [
   {
     "symbol": "TDPOWERSYS",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 792.15,
     "day_change_pct": 0.78,
     "bem_score": 66.5,
@@ -43,7 +43,7 @@
   },
   {
     "symbol": "KOTAKBANK",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 418.35,
     "day_change_pct": 0.32,
     "bem_score": 65.5,
@@ -85,7 +85,7 @@
   },
   {
     "symbol": "BHEL",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 421.0,
     "day_change_pct": 1.32,
     "bem_score": 55.5,
@@ -127,7 +127,7 @@
   },
   {
     "symbol": "SBILIFE",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1721.6,
     "day_change_pct": 1.49,
     "bem_score": 55.5,
@@ -169,7 +169,7 @@
   },
   {
     "symbol": "DRREDDY",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1206.2,
     "day_change_pct": -2.17,
     "bem_score": 55.5,
@@ -211,7 +211,7 @@
   },
   {
     "symbol": "COFORGE",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1826.0,
     "day_change_pct": 4.4,
     "bem_score": 53.5,
@@ -253,7 +253,7 @@
   },
   {
     "symbol": "APARINDS",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 17648.0,
     "day_change_pct": 1.52,
     "bem_score": 52.5,
@@ -295,7 +295,7 @@
   },
   {
     "symbol": "TECHM",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1533.0,
     "day_change_pct": 0.59,
     "bem_score": 51.5,
@@ -337,7 +337,7 @@
   },
   {
     "symbol": "MCX",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 3204.0,
     "day_change_pct": -2.92,
     "bem_score": 51.5,
@@ -379,7 +379,7 @@
   },
   {
     "symbol": "ASIANPAINT",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 2407.0,
     "day_change_pct": 0.18,
     "bem_score": 51.5,
@@ -421,7 +421,7 @@
   },
   {
     "symbol": "DIVISLAB",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 9249.0,
     "day_change_pct": -0.46,
     "bem_score": 51.5,
@@ -463,7 +463,7 @@
   },
   {
     "symbol": "HDFCBANK",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 721.2,
     "day_change_pct": 1.76,
     "bem_score": 51.5,
@@ -505,7 +505,7 @@
   },
   {
     "symbol": "APOLLOHOSP",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 8133.5,
     "day_change_pct": -0.39,
     "bem_score": 50.5,
@@ -547,7 +547,7 @@
   },
   {
     "symbol": "INFY",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1035.0,
     "day_change_pct": 4.11,
     "bem_score": 49.5,
@@ -589,7 +589,7 @@
   },
   {
     "symbol": "HINDALCO",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 941.85,
     "day_change_pct": 0.01,
     "bem_score": 49.5,
@@ -631,7 +631,7 @@
   },
   {
     "symbol": "PERSISTENT",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 5367.0,
     "day_change_pct": 1.67,
     "bem_score": 48.5,
@@ -673,7 +673,7 @@
   },
   {
     "symbol": "COALINDIA",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 420.4,
     "day_change_pct": -1.08,
     "bem_score": 48.5,
@@ -715,7 +715,7 @@
   },
   {
     "symbol": "ADANIPORTS",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1737.8,
     "day_change_pct": -3.36,
     "bem_score": 47.5,
@@ -757,7 +757,7 @@
   },
   {
     "symbol": "AXISBANK",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1217.1,
     "day_change_pct": -0.73,
     "bem_score": 46.5,
@@ -799,7 +799,7 @@
   },
   {
     "symbol": "ADANIENT",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 2816.8,
     "day_change_pct": -2.98,
     "bem_score": 46.5,
@@ -841,7 +841,7 @@
   },
   {
     "symbol": "HCLTECH",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1243.1,
     "day_change_pct": 1.07,
     "bem_score": 45.5,
@@ -883,7 +883,7 @@
   },
   {
     "symbol": "BPCL",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 300.6,
     "day_change_pct": -0.86,
     "bem_score": 45.5,
@@ -925,7 +925,7 @@
   },
   {
     "symbol": "NTPC",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 315.1,
     "day_change_pct": -2.37,
     "bem_score": 45.5,
@@ -967,7 +967,7 @@
   },
   {
     "symbol": "ONGC",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 222.37,
     "day_change_pct": -1.52,
     "bem_score": 45.5,
@@ -1009,7 +1009,7 @@
   },
   {
     "symbol": "TATACONSUM",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 957.0,
     "day_change_pct": 0.79,
     "bem_score": 45.5,
@@ -1051,7 +1051,7 @@
   },
   {
     "symbol": "ICICIBANK",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1310.6,
     "day_change_pct": -0.84,
     "bem_score": 44.5,
@@ -1093,7 +1093,7 @@
   },
   {
     "symbol": "TRENT",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 2580.0,
     "day_change_pct": -1.59,
     "bem_score": 43.5,
@@ -1135,7 +1135,7 @@
   },
   {
     "symbol": "IREDA",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 111.0,
     "day_change_pct": -0.61,
     "bem_score": 43.5,
@@ -1177,7 +1177,7 @@
   },
   {
     "symbol": "NESTLEIND",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1307.7,
     "day_change_pct": -0.18,
     "bem_score": 43.5,
@@ -1219,7 +1219,7 @@
   },
   {
     "symbol": "SHRIRAMFIN",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 945.0,
     "day_change_pct": -3.84,
     "bem_score": 43.5,
@@ -1261,7 +1261,7 @@
   },
   {
     "symbol": "RELIANCE",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1167.7,
     "day_change_pct": -1.63,
     "bem_score": 43.5,
@@ -1303,7 +1303,7 @@
   },
   {
     "symbol": "LT",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 3693.4,
     "day_change_pct": -1.77,
     "bem_score": 43.5,
@@ -1345,7 +1345,7 @@
   },
   {
     "symbol": "BRITANNIA",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 4778.0,
     "day_change_pct": -1.08,
     "bem_score": 43.5,
@@ -1387,7 +1387,7 @@
   },
   {
     "symbol": "RVNL",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 197.0,
     "day_change_pct": -2.36,
     "bem_score": 41.5,
@@ -1429,7 +1429,7 @@
   },
   {
     "symbol": "BEL",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 383.1,
     "day_change_pct": -1.34,
     "bem_score": 41.5,
@@ -1471,7 +1471,7 @@
   },
   {
     "symbol": "POWERGRID",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 254.55,
     "day_change_pct": -2.28,
     "bem_score": 41.5,
@@ -1513,7 +1513,7 @@
   },
   {
     "symbol": "HDFCLIFE",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 534.2,
     "day_change_pct": 2.49,
     "bem_score": 40.5,
@@ -1555,7 +1555,7 @@
   },
   {
     "symbol": "TITAN",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 4515.7,
     "day_change_pct": -1.55,
     "bem_score": 40.5,
@@ -1597,7 +1597,7 @@
   },
   {
     "symbol": "BSE",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 3046.0,
     "day_change_pct": -1.49,
     "bem_score": 39.5,
@@ -1639,7 +1639,7 @@
   },
   {
     "symbol": "KPITTECH",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 492.0,
     "day_change_pct": -1.42,
     "bem_score": 39.5,
@@ -1681,7 +1681,7 @@
   },
   {
     "symbol": "SUZLON",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 38.91,
     "day_change_pct": -1.47,
     "bem_score": 39.5,
@@ -1723,7 +1723,7 @@
   },
   {
     "symbol": "CDSL",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1242.5,
     "day_change_pct": -1.7,
     "bem_score": 39.5,
@@ -1765,7 +1765,7 @@
   },
   {
     "symbol": "MAZDOCK",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 2064.0,
     "day_change_pct": -2.32,
     "bem_score": 39.5,
@@ -1807,7 +1807,7 @@
   },
   {
     "symbol": "TCS",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 2075.0,
     "day_change_pct": 1.19,
     "bem_score": 39.5,
@@ -1849,7 +1849,7 @@
   },
   {
     "symbol": "CHOLAFIN",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1580.0,
     "day_change_pct": -2.47,
     "bem_score": 39.5,
@@ -1891,7 +1891,7 @@
   },
   {
     "symbol": "POLYCAB",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 7990.0,
     "day_change_pct": -0.45,
     "bem_score": 39.5,
@@ -1933,7 +1933,7 @@
   },
   {
     "symbol": "BHARTIARTL",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1741.1,
     "day_change_pct": -0.9,
     "bem_score": 39.5,
@@ -1975,7 +1975,7 @@
   },
   {
     "symbol": "HAL",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 4601.0,
     "day_change_pct": -1.44,
     "bem_score": 38.5,
@@ -2017,7 +2017,7 @@
   },
   {
     "symbol": "KAYNES",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 3399.0,
     "day_change_pct": -2.91,
     "bem_score": 37.5,
@@ -2059,7 +2059,7 @@
   },
   {
     "symbol": "HEROMOTOCO",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 5168.0,
     "day_change_pct": -1.39,
     "bem_score": 37.5,
@@ -2101,7 +2101,7 @@
   },
   {
     "symbol": "SUNPHARMA",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1801.0,
     "day_change_pct": -0.86,
     "bem_score": 37.5,
@@ -2143,7 +2143,7 @@
   },
   {
     "symbol": "JSWSTEEL",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1233.0,
     "day_change_pct": -1.63,
     "bem_score": 37.5,
@@ -2185,7 +2185,7 @@
   },
   {
     "symbol": "CIPLA",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1344.0,
     "day_change_pct": -0.15,
     "bem_score": 36.5,
@@ -2227,7 +2227,7 @@
   },
   {
     "symbol": "TATASTEEL",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 178.0,
     "day_change_pct": -3.42,
     "bem_score": 36.5,
@@ -2269,7 +2269,7 @@
   },
   {
     "symbol": "ITC",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 255.9,
     "day_change_pct": -2.61,
     "bem_score": 36.5,
@@ -2311,7 +2311,7 @@
   },
   {
     "symbol": "ULTRACEMCO",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 10710.0,
     "day_change_pct": -2.25,
     "bem_score": 36.5,
@@ -2353,7 +2353,7 @@
   },
   {
     "symbol": "IOC",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 131.34,
     "day_change_pct": -2.66,
     "bem_score": 36.5,
@@ -2395,7 +2395,7 @@
   },
   {
     "symbol": "GRASIM",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 2962.0,
     "day_change_pct": -3.26,
     "bem_score": 35.5,
@@ -2437,7 +2437,7 @@
   },
   {
     "symbol": "BAJFINANCE",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 948.3,
     "day_change_pct": -1.16,
     "bem_score": 34.5,
@@ -2479,7 +2479,7 @@
   },
   {
     "symbol": "WIPRO",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 159.35,
     "day_change_pct": 0.54,
     "bem_score": 34.5,
@@ -2521,7 +2521,7 @@
   },
   {
     "symbol": "INDUSINDBK",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 886.85,
     "day_change_pct": -1.61,
     "bem_score": 34.5,
@@ -2563,7 +2563,7 @@
   },
   {
     "symbol": "MUTHOOTFIN",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 2697.1,
     "day_change_pct": -1.46,
     "bem_score": 34.5,
@@ -2605,7 +2605,7 @@
   },
   {
     "symbol": "DIXON",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 12700.0,
     "day_change_pct": -3.05,
     "bem_score": 34.5,
@@ -2647,7 +2647,7 @@
   },
   {
     "symbol": "SBIN",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 954.1,
     "day_change_pct": -0.56,
     "bem_score": 34.5,
@@ -2689,7 +2689,7 @@
   },
   {
     "symbol": "BAJAJ-AUTO",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 10045.0,
     "day_change_pct": -7.62,
     "bem_score": 34.5,
@@ -2731,7 +2731,7 @@
   },
   {
     "symbol": "MARUTI",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 11386.0,
     "day_change_pct": -4.86,
     "bem_score": 34.5,
@@ -2773,7 +2773,7 @@
   },
   {
     "symbol": "EICHERMOT",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 6920.0,
     "day_change_pct": -3.22,
     "bem_score": 34.5,
@@ -2815,7 +2815,7 @@
   },
   {
     "symbol": "TATACHEM",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 607.8,
     "day_change_pct": -0.6,
     "bem_score": 31.5,
@@ -2857,7 +2857,7 @@
   },
   {
     "symbol": "COCHINSHIP",
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "close_price": 1287.0,
     "day_change_pct": -2.13,
     "bem_score": 29.5,
