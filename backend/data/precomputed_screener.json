@@ -1,12 +1,12 @@
 [
   {
     "symbol": "ICICIBANK",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1589.0,
     "day_change_pct": 1.13,
-    "bem_score": 75.5,
+    "bem_score": 77.5,
     "action": "Buy on Breakout",
-    "price_momentum_score": 19.0,
+    "price_momentum_score": 21.0,
     "volume_expansion_score": 20.0,
     "delivery_score": 7.5,
     "breakout_score": 13.0,
@@ -34,7 +34,7 @@
       "notes": [
         "Delivery data N/A; confidence downgraded to Medium."
       ],
-      "volume_ratio": 1.69,
+      "volume_ratio": 1.7,
       "delivery_pct": null,
       "key_resistance": 1571.2,
       "resistance_type": "52-Week High",
@@ -43,7 +43,7 @@
   },
   {
     "symbol": "DIVISLAB",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 11565.5,
     "day_change_pct": 12.06,
     "bem_score": 71.0,
@@ -84,8 +84,50 @@
     }
   },
   {
+    "symbol": "IOC",
+    "date": "2026-11-10",
+    "close_price": 146.85,
+    "day_change_pct": 0.41,
+    "bem_score": 68.5,
+    "action": "Watch",
+    "price_momentum_score": 18.0,
+    "volume_expansion_score": 20.0,
+    "delivery_score": 7.5,
+    "breakout_score": 7.0,
+    "institutional_score": 5.0,
+    "exhaustion_adjustment": 11.0,
+    "raw_exhaustion_score": 4.0,
+    "chase_alert_active": false,
+    "chase_alert_severity": "NONE",
+    "chase_alert_reason": null,
+    "potential_level": "High",
+    "potential_probability_pct": 72,
+    "preferred_buy_min": 143.96,
+    "preferred_buy_max": 147.94,
+    "breakout_entry": 147.6,
+    "stop_loss": 141.42,
+    "stop_loss_pct": 3.7,
+    "target_1": 152.28,
+    "target_2": 157.71,
+    "stretch_target": 164.94,
+    "risk_reward_t1": 1.0,
+    "risk_reward_t2": 2.0,
+    "confidence": "Medium",
+    "metadata": {
+      "rationale": "Moderate momentum (68/100). Awaiting volume/breakout trigger.",
+      "notes": [
+        "Delivery data N/A; confidence downgraded to Medium."
+      ],
+      "volume_ratio": 1.78,
+      "delivery_pct": null,
+      "key_resistance": 147.31,
+      "resistance_type": "50-Day High",
+      "rsi_14": 75.74
+    }
+  },
+  {
     "symbol": "HDFCBANK",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 798.15,
     "day_change_pct": 1.26,
     "bem_score": 67.5,
@@ -126,50 +168,8 @@
     }
   },
   {
-    "symbol": "IOC",
-    "date": "2026-11-09",
-    "close_price": 146.85,
-    "day_change_pct": 0.41,
-    "bem_score": 66.5,
-    "action": "Watch",
-    "price_momentum_score": 16.0,
-    "volume_expansion_score": 20.0,
-    "delivery_score": 7.5,
-    "breakout_score": 7.0,
-    "institutional_score": 5.0,
-    "exhaustion_adjustment": 11.0,
-    "raw_exhaustion_score": 4.0,
-    "chase_alert_active": false,
-    "chase_alert_severity": "NONE",
-    "chase_alert_reason": null,
-    "potential_level": "High",
-    "potential_probability_pct": 72,
-    "preferred_buy_min": 143.96,
-    "preferred_buy_max": 147.94,
-    "breakout_entry": 147.6,
-    "stop_loss": 141.42,
-    "stop_loss_pct": 3.7,
-    "target_1": 152.28,
-    "target_2": 157.71,
-    "stretch_target": 164.94,
-    "risk_reward_t1": 1.0,
-    "risk_reward_t2": 2.0,
-    "confidence": "Medium",
-    "metadata": {
-      "rationale": "Moderate momentum (66/100). Awaiting volume/breakout trigger.",
-      "notes": [
-        "Delivery data N/A; confidence downgraded to Medium."
-      ],
-      "volume_ratio": 1.78,
-      "delivery_pct": null,
-      "key_resistance": 147.31,
-      "resistance_type": "50-Day High",
-      "rsi_14": 75.74
-    }
-  },
-  {
     "symbol": "SBIN",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1042.0,
     "day_change_pct": 2.31,
     "bem_score": 64.5,
@@ -211,7 +211,7 @@
   },
   {
     "symbol": "HINDALCO",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 960.0,
     "day_change_pct": 0.17,
     "bem_score": 63.5,
@@ -253,7 +253,7 @@
   },
   {
     "symbol": "ONGC",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 233.5,
     "day_change_pct": 0.75,
     "bem_score": 61.5,
@@ -295,7 +295,7 @@
   },
   {
     "symbol": "COCHINSHIP",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1290.0,
     "day_change_pct": 5.74,
     "bem_score": 60.5,
@@ -337,7 +337,7 @@
   },
   {
     "symbol": "LT",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 4185.0,
     "day_change_pct": 1.63,
     "bem_score": 60.5,
@@ -379,7 +379,7 @@
   },
   {
     "symbol": "IREDA",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 119.65,
     "day_change_pct": 7.35,
     "bem_score": 58.0,
@@ -421,7 +421,7 @@
   },
   {
     "symbol": "RVNL",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 201.7,
     "day_change_pct": 4.32,
     "bem_score": 57.5,
@@ -463,7 +463,7 @@
   },
   {
     "symbol": "DRREDDY",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1385.0,
     "day_change_pct": 0.87,
     "bem_score": 57.5,
@@ -505,7 +505,7 @@
   },
   {
     "symbol": "CIPLA",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1403.8,
     "day_change_pct": -0.51,
     "bem_score": 56.5,
@@ -547,7 +547,7 @@
   },
   {
     "symbol": "SUNPHARMA",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1904.5,
     "day_change_pct": 2.39,
     "bem_score": 56.5,
@@ -588,8 +588,50 @@
     }
   },
   {
+    "symbol": "BAJAJ-AUTO",
+    "date": "2026-11-10",
+    "close_price": 10979.0,
+    "day_change_pct": 0.72,
+    "bem_score": 54.5,
+    "action": "Watch",
+    "price_momentum_score": 12.0,
+    "volume_expansion_score": 10.0,
+    "delivery_score": 7.5,
+    "breakout_score": 9.0,
+    "institutional_score": 5.0,
+    "exhaustion_adjustment": 11.0,
+    "raw_exhaustion_score": 4.0,
+    "chase_alert_active": false,
+    "chase_alert_severity": "NONE",
+    "chase_alert_reason": null,
+    "potential_level": "Medium",
+    "potential_probability_pct": 50,
+    "preferred_buy_min": 10761.57,
+    "preferred_buy_max": 11060.54,
+    "breakout_entry": 10979.0,
+    "stop_loss": 10571.32,
+    "stop_loss_pct": 3.71,
+    "target_1": 11386.68,
+    "target_2": 11794.36,
+    "stretch_target": 12337.93,
+    "risk_reward_t1": 1.0,
+    "risk_reward_t2": 2.0,
+    "confidence": "Medium",
+    "metadata": {
+      "rationale": "Consolidating above 50 DMA (54/100). Orderly volume contraction, awaiting expansion trigger.",
+      "notes": [
+        "Delivery data N/A; confidence downgraded to Medium."
+      ],
+      "volume_ratio": 1.11,
+      "delivery_pct": null,
+      "key_resistance": 10938.0,
+      "resistance_type": "20-Day Swing High",
+      "rsi_14": 62.67
+    }
+  },
+  {
     "symbol": "MCX",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 3545.0,
     "day_change_pct": 0.48,
     "bem_score": 53.5,
@@ -630,8 +672,50 @@
     }
   },
   {
+    "symbol": "HCLTECH",
+    "date": "2026-11-10",
+    "close_price": 1407.0,
+    "day_change_pct": -2.29,
+    "bem_score": 53.5,
+    "action": "Watch",
+    "price_momentum_score": 19.0,
+    "volume_expansion_score": 5.0,
+    "delivery_score": 7.5,
+    "breakout_score": 3.0,
+    "institutional_score": 5.0,
+    "exhaustion_adjustment": 14.0,
+    "raw_exhaustion_score": 1.0,
+    "chase_alert_active": false,
+    "chase_alert_severity": "NONE",
+    "chase_alert_reason": null,
+    "potential_level": "Medium",
+    "potential_probability_pct": 50,
+    "preferred_buy_min": 1392.14,
+    "preferred_buy_max": 1419.15,
+    "breakout_entry": 1471.94,
+    "stop_loss": 1364.0,
+    "stop_loss_pct": 3.06,
+    "target_1": 1467.74,
+    "target_2": 1528.48,
+    "stretch_target": 1609.46,
+    "risk_reward_t1": 1.41,
+    "risk_reward_t2": 2.83,
+    "confidence": "Medium",
+    "metadata": {
+      "rationale": "Consolidating above 50 DMA (54/100). Orderly volume contraction, awaiting expansion trigger.",
+      "notes": [
+        "Delivery data N/A; confidence downgraded to Medium."
+      ],
+      "volume_ratio": 0.79,
+      "delivery_pct": null,
+      "key_resistance": 1469.0,
+      "resistance_type": "20-Day Swing High",
+      "rsi_14": 58.43
+    }
+  },
+  {
     "symbol": "JSWSTEEL",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1347.0,
     "day_change_pct": -0.74,
     "bem_score": 53.5,
@@ -673,7 +757,7 @@
   },
   {
     "symbol": "TECHM",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1805.0,
     "day_change_pct": -1.42,
     "bem_score": 52.5,
@@ -714,50 +798,8 @@
     }
   },
   {
-    "symbol": "BAJAJ-AUTO",
-    "date": "2026-11-09",
-    "close_price": 10979.0,
-    "day_change_pct": 0.72,
-    "bem_score": 52.5,
-    "action": "Watch",
-    "price_momentum_score": 10.0,
-    "volume_expansion_score": 10.0,
-    "delivery_score": 7.5,
-    "breakout_score": 9.0,
-    "institutional_score": 5.0,
-    "exhaustion_adjustment": 11.0,
-    "raw_exhaustion_score": 4.0,
-    "chase_alert_active": false,
-    "chase_alert_severity": "NONE",
-    "chase_alert_reason": null,
-    "potential_level": "Medium",
-    "potential_probability_pct": 50,
-    "preferred_buy_min": 10761.57,
-    "preferred_buy_max": 11060.54,
-    "breakout_entry": 10979.0,
-    "stop_loss": 10571.32,
-    "stop_loss_pct": 3.71,
-    "target_1": 11386.68,
-    "target_2": 11794.36,
-    "stretch_target": 12337.93,
-    "risk_reward_t1": 1.0,
-    "risk_reward_t2": 2.0,
-    "confidence": "Medium",
-    "metadata": {
-      "rationale": "Consolidating above 50 DMA (52/100). Orderly volume contraction, awaiting expansion trigger.",
-      "notes": [
-        "Delivery data N/A; confidence downgraded to Medium."
-      ],
-      "volume_ratio": 1.11,
-      "delivery_pct": null,
-      "key_resistance": 10938.0,
-      "resistance_type": "20-Day Swing High",
-      "rsi_14": 62.67
-    }
-  },
-  {
     "symbol": "ADANIPORTS",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1942.7,
     "day_change_pct": 0.31,
     "bem_score": 51.5,
@@ -799,7 +841,7 @@
   },
   {
     "symbol": "HAL",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 4999.0,
     "day_change_pct": 0.38,
     "bem_score": 51.5,
@@ -840,50 +882,8 @@
     }
   },
   {
-    "symbol": "HCLTECH",
-    "date": "2026-11-09",
-    "close_price": 1407.0,
-    "day_change_pct": -2.29,
-    "bem_score": 51.5,
-    "action": "Watch",
-    "price_momentum_score": 17.0,
-    "volume_expansion_score": 5.0,
-    "delivery_score": 7.5,
-    "breakout_score": 3.0,
-    "institutional_score": 5.0,
-    "exhaustion_adjustment": 14.0,
-    "raw_exhaustion_score": 1.0,
-    "chase_alert_active": false,
-    "chase_alert_severity": "NONE",
-    "chase_alert_reason": null,
-    "potential_level": "Medium",
-    "potential_probability_pct": 50,
-    "preferred_buy_min": 1392.14,
-    "preferred_buy_max": 1419.15,
-    "breakout_entry": 1471.94,
-    "stop_loss": 1364.0,
-    "stop_loss_pct": 3.06,
-    "target_1": 1467.74,
-    "target_2": 1528.48,
-    "stretch_target": 1609.46,
-    "risk_reward_t1": 1.41,
-    "risk_reward_t2": 2.83,
-    "confidence": "Medium",
-    "metadata": {
-      "rationale": "Consolidating above 50 DMA (52/100). Orderly volume contraction, awaiting expansion trigger.",
-      "notes": [
-        "Delivery data N/A; confidence downgraded to Medium."
-      ],
-      "volume_ratio": 0.79,
-      "delivery_pct": null,
-      "key_resistance": 1469.0,
-      "resistance_type": "20-Day Swing High",
-      "rsi_14": 58.43
-    }
-  },
-  {
     "symbol": "KOTAKBANK",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 479.5,
     "day_change_pct": -0.1,
     "bem_score": 50.5,
@@ -925,7 +925,7 @@
   },
   {
     "symbol": "MARUTI",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 12928.0,
     "day_change_pct": 1.4,
     "bem_score": 50.5,
@@ -967,7 +967,7 @@
   },
   {
     "symbol": "ULTRACEMCO",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 12275.0,
     "day_change_pct": -1.41,
     "bem_score": 49.5,
@@ -1008,8 +1008,50 @@
     }
   },
   {
+    "symbol": "WIPRO",
+    "date": "2026-11-10",
+    "close_price": 199.0,
+    "day_change_pct": 0.51,
+    "bem_score": 49.5,
+    "action": "Watch",
+    "price_momentum_score": 19.0,
+    "volume_expansion_score": 0.0,
+    "delivery_score": 7.5,
+    "breakout_score": 7.0,
+    "institutional_score": 5.0,
+    "exhaustion_adjustment": 11.0,
+    "raw_exhaustion_score": 4.0,
+    "chase_alert_active": false,
+    "chase_alert_severity": "NONE",
+    "chase_alert_reason": null,
+    "potential_level": "Medium",
+    "potential_probability_pct": 52,
+    "preferred_buy_min": 194.76,
+    "preferred_buy_max": 200.59,
+    "breakout_entry": 202.1,
+    "stop_loss": 191.04,
+    "stop_loss_pct": 4.0,
+    "target_1": 206.96,
+    "target_2": 214.91,
+    "stretch_target": 225.52,
+    "risk_reward_t1": 1.0,
+    "risk_reward_t2": 2.0,
+    "confidence": "Medium",
+    "metadata": {
+      "rationale": "Consolidating above 50 DMA (50/100). Orderly volume contraction, awaiting expansion trigger.",
+      "notes": [
+        "Delivery data N/A; confidence downgraded to Medium."
+      ],
+      "volume_ratio": 0.56,
+      "delivery_pct": null,
+      "key_resistance": 201.7,
+      "resistance_type": "20-Day Swing High",
+      "rsi_14": 68.98
+    }
+  },
+  {
     "symbol": "CDSL",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1356.0,
     "day_change_pct": 1.85,
     "bem_score": 49.5,
@@ -1050,50 +1092,8 @@
     }
   },
   {
-    "symbol": "WIPRO",
-    "date": "2026-11-09",
-    "close_price": 199.0,
-    "day_change_pct": 0.51,
-    "bem_score": 48.5,
-    "action": "Watch",
-    "price_momentum_score": 18.0,
-    "volume_expansion_score": 0.0,
-    "delivery_score": 7.5,
-    "breakout_score": 7.0,
-    "institutional_score": 5.0,
-    "exhaustion_adjustment": 11.0,
-    "raw_exhaustion_score": 4.0,
-    "chase_alert_active": false,
-    "chase_alert_severity": "NONE",
-    "chase_alert_reason": null,
-    "potential_level": "Medium",
-    "potential_probability_pct": 52,
-    "preferred_buy_min": 194.76,
-    "preferred_buy_max": 200.59,
-    "breakout_entry": 202.1,
-    "stop_loss": 191.04,
-    "stop_loss_pct": 4.0,
-    "target_1": 206.96,
-    "target_2": 214.91,
-    "stretch_target": 225.52,
-    "risk_reward_t1": 1.0,
-    "risk_reward_t2": 2.0,
-    "confidence": "Medium",
-    "metadata": {
-      "rationale": "Consolidating above 50 DMA (48/100). Orderly volume contraction, awaiting expansion trigger.",
-      "notes": [
-        "Delivery data N/A; confidence downgraded to Medium."
-      ],
-      "volume_ratio": 0.56,
-      "delivery_pct": null,
-      "key_resistance": 201.7,
-      "resistance_type": "20-Day Swing High",
-      "rsi_14": 68.98
-    }
-  },
-  {
     "symbol": "RELIANCE",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1324.4,
     "day_change_pct": 0.33,
     "bem_score": 47.5,
@@ -1135,7 +1135,7 @@
   },
   {
     "symbol": "BSE",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 3816.6,
     "day_change_pct": 0.44,
     "bem_score": 47.5,
@@ -1177,7 +1177,7 @@
   },
   {
     "symbol": "HDFCLIFE",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 565.4,
     "day_change_pct": 0.02,
     "bem_score": 46.5,
@@ -1219,7 +1219,7 @@
   },
   {
     "symbol": "TCS",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 2475.4,
     "day_change_pct": -0.92,
     "bem_score": 46.5,
@@ -1261,7 +1261,7 @@
   },
   {
     "symbol": "TRENT",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 3119.2,
     "day_change_pct": 1.31,
     "bem_score": 45.5,
@@ -1303,7 +1303,7 @@
   },
   {
     "symbol": "TITAN",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 5005.0,
     "day_change_pct": 0.1,
     "bem_score": 45.5,
@@ -1345,7 +1345,7 @@
   },
   {
     "symbol": "INFY",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1154.1,
     "day_change_pct": -2.31,
     "bem_score": 45.5,
@@ -1387,7 +1387,7 @@
   },
   {
     "symbol": "POWERGRID",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 257.95,
     "day_change_pct": -0.75,
     "bem_score": 45.5,
@@ -1429,7 +1429,7 @@
   },
   {
     "symbol": "NTPC",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 328.75,
     "day_change_pct": 1.64,
     "bem_score": 45.5,
@@ -1462,7 +1462,7 @@
       "notes": [
         "Delivery data N/A; confidence downgraded to Medium."
       ],
-      "volume_ratio": 0.99,
+      "volume_ratio": 1.0,
       "delivery_pct": null,
       "key_resistance": 324.89,
       "resistance_type": "20-Day Swing High",
@@ -1471,7 +1471,7 @@
   },
   {
     "symbol": "MUTHOOTFIN",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 2917.6,
     "day_change_pct": 1.69,
     "bem_score": 45.0,
@@ -1513,7 +1513,7 @@
   },
   {
     "symbol": "EICHERMOT",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 7629.0,
     "day_change_pct": -0.53,
     "bem_score": 44.5,
@@ -1555,7 +1555,7 @@
   },
   {
     "symbol": "BPCL",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 316.0,
     "day_change_pct": -1.22,
     "bem_score": 43.5,
@@ -1597,7 +1597,7 @@
   },
   {
     "symbol": "BAJFINANCE",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1064.85,
     "day_change_pct": -2.11,
     "bem_score": 42.5,
@@ -1639,7 +1639,7 @@
   },
   {
     "symbol": "COFORGE",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 2047.0,
     "day_change_pct": -1.4,
     "bem_score": 42.5,
@@ -1681,7 +1681,7 @@
   },
   {
     "symbol": "TATASTEEL",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 184.85,
     "day_change_pct": -0.78,
     "bem_score": 42.5,
@@ -1714,7 +1714,7 @@
       "notes": [
         "Delivery data N/A; confidence downgraded to Medium."
       ],
-      "volume_ratio": 2.06,
+      "volume_ratio": 2.07,
       "delivery_pct": null,
       "key_resistance": 191.8,
       "resistance_type": "50-Day High",
@@ -1723,7 +1723,7 @@
   },
   {
     "symbol": "BHARTIARTL",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 2072.1,
     "day_change_pct": -1.67,
     "bem_score": 42.5,
@@ -1765,7 +1765,7 @@
   },
   {
     "symbol": "COALINDIA",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 401.5,
     "day_change_pct": 0.38,
     "bem_score": 40.5,
@@ -1807,7 +1807,7 @@
   },
   {
     "symbol": "KPITTECH",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 542.35,
     "day_change_pct": 0.35,
     "bem_score": 40.5,
@@ -1849,7 +1849,7 @@
   },
   {
     "symbol": "TATACONSUM",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1083.9,
     "day_change_pct": -0.22,
     "bem_score": 40.5,
@@ -1891,7 +1891,7 @@
   },
   {
     "symbol": "APOLLOHOSP",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 8549.5,
     "day_change_pct": 1.23,
     "bem_score": 40.5,
@@ -1933,7 +1933,7 @@
   },
   {
     "symbol": "HEROMOTOCO",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 5410.5,
     "day_change_pct": -1.86,
     "bem_score": 39.5,
@@ -1975,7 +1975,7 @@
   },
   {
     "symbol": "PERSISTENT",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 6040.0,
     "day_change_pct": -0.22,
     "bem_score": 39.5,
@@ -2017,7 +2017,7 @@
   },
   {
     "symbol": "GRASIM",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 3169.7,
     "day_change_pct": -1.78,
     "bem_score": 39.5,
@@ -2059,7 +2059,7 @@
   },
   {
     "symbol": "BEL",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 394.55,
     "day_change_pct": -0.37,
     "bem_score": 38.5,
@@ -2101,7 +2101,7 @@
   },
   {
     "symbol": "ASIANPAINT",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 2509.3,
     "day_change_pct": -1.44,
     "bem_score": 38.5,
@@ -2143,7 +2143,7 @@
   },
   {
     "symbol": "AXISBANK",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1310.7,
     "day_change_pct": -0.92,
     "bem_score": 37.5,
@@ -2185,7 +2185,7 @@
   },
   {
     "symbol": "ITC",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 278.8,
     "day_change_pct": -1.54,
     "bem_score": 37.5,
@@ -2227,7 +2227,7 @@
   },
   {
     "symbol": "CHOLAFIN",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1790.8,
     "day_change_pct": 0.32,
     "bem_score": 37.0,
@@ -2269,7 +2269,7 @@
   },
   {
     "symbol": "BRITANNIA",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 4790.0,
     "day_change_pct": 0.1,
     "bem_score": 36.5,
@@ -2311,7 +2311,7 @@
   },
   {
     "symbol": "BHEL",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 422.95,
     "day_change_pct": 0.99,
     "bem_score": 36.5,
@@ -2353,7 +2353,7 @@
   },
   {
     "symbol": "INDUSINDBK",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 895.0,
     "day_change_pct": -1.68,
     "bem_score": 35.5,
@@ -2395,7 +2395,7 @@
   },
   {
     "symbol": "APARINDS",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 14205.0,
     "day_change_pct": 0.7,
     "bem_score": 34.5,
@@ -2437,7 +2437,7 @@
   },
   {
     "symbol": "TDPOWERSYS",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 571.65,
     "day_change_pct": -0.84,
     "bem_score": 34.5,
@@ -2479,7 +2479,7 @@
   },
   {
     "symbol": "SUZLON",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 38.91,
     "day_change_pct": 0.28,
     "bem_score": 33.5,
@@ -2521,7 +2521,7 @@
   },
   {
     "symbol": "KAYNES",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 3300.0,
     "day_change_pct": 2.07,
     "bem_score": 33.5,
@@ -2563,7 +2563,7 @@
   },
   {
     "symbol": "SHRIRAMFIN",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 965.0,
     "day_change_pct": 0.4,
     "bem_score": 33.5,
@@ -2605,7 +2605,7 @@
   },
   {
     "symbol": "NESTLEIND",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1297.8,
     "day_change_pct": 1.22,
     "bem_score": 33.5,
@@ -2647,7 +2647,7 @@
   },
   {
     "symbol": "TATACHEM",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 604.75,
     "day_change_pct": -0.44,
     "bem_score": 31.5,
@@ -2689,7 +2689,7 @@
   },
   {
     "symbol": "SBILIFE",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1748.0,
     "day_change_pct": -2.02,
     "bem_score": 31.5,
@@ -2731,7 +2731,7 @@
   },
   {
     "symbol": "ADANIENT",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 2706.3,
     "day_change_pct": -1.44,
     "bem_score": 30.5,
@@ -2773,7 +2773,7 @@
   },
   {
     "symbol": "POLYCAB",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 7832.5,
     "day_change_pct": -0.49,
     "bem_score": 29.5,
@@ -2815,7 +2815,7 @@
   },
   {
     "symbol": "MAZDOCK",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 1878.0,
     "day_change_pct": 2.07,
     "bem_score": 29.5,
@@ -2857,7 +2857,7 @@
   },
   {
     "symbol": "DIXON",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "close_price": 12603.0,
     "day_change_pct": -0.17,
     "bem_score": 28.5,
